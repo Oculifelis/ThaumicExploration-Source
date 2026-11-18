@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "thaumicexploration:item/wand_cap_mechanist_inert"
+  }
+}

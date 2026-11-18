@@ -1,0 +1,31 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 2
+    }
+  ],
+  "key": {
+    "G": "thaumaturge:tainted_goo",
+    "P": "thaumaturge:plank_greatwood",
+    "S": "thaumaturge:taint_tendril",
+    "F": "minecraft:feather"
+  },
+  "pattern": [
+    "GPG",
+    "PSP",
+    "FPF"
+  ],
+  "research": {
+    "entry": "thaumicexploration:dreamcatcher"
+  },
+  "result": {
+    "id": "thaumicexploration:dreamcatcher"
+  },
+  "vis": 30
+}

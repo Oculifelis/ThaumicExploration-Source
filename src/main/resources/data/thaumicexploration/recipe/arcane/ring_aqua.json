@@ -1,0 +1,32 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 15
+    }
+  ],
+  "key": {
+    "F": {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:aqua"
+        }
+      }
+    }
+  },
+  "pattern": [
+    " F ",
+    "F F",
+    " F "
+  ],
+  "research": {
+    "entry": "thaumicexploration:discount_rings"
+  },
+  "result": {
+    "id": "thaumicexploration:ring_aqua"
+  },
+  "vis": 10
+}

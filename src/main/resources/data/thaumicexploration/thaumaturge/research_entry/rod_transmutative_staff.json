@@ -1,0 +1,54 @@
+{
+  "category": "thaumicexploration:exploration",
+  "name": "research.thaumicexploration.rod_transmutative_staff.title",
+  "parents": [
+    "thaumicexploration:rod_transmutative",
+    "thaumaturge:staves"
+  ],
+  "column": 0,
+  "row": 0,
+  "icons": [
+    "thaumicexploration:staff_rod_transmutative"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumicexploration.rod_transmutative_staff.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:auromancy",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:auromancy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumicexploration.rod_transmutative_staff.stage_1",
+      "recipes": [
+        "thaumicexploration:arcane/staff_rod_transmutative"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 6
+    }
+  ],
+  "complexity": 1,
+  "meta": [
+    "hidden"
+  ]
+}

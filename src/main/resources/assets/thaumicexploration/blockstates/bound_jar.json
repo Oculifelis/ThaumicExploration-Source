@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "color=white": {
+      "model": "thaumicexploration:block/bound_jar_white"
+    },
+    "color=orange": {
+      "model": "thaumicexploration:block/bound_jar_orange"
+    },
+    "color=magenta": {
+      "model": "thaumicexploration:block/bound_jar_magenta"
+    },
+    "color=light_blue": {
+      "model": "thaumicexploration:block/bound_jar_light_blue"
+    },
+    "color=yellow": {
+      "model": "thaumicexploration:block/bound_jar_yellow"
+    },
+    "color=lime": {
+      "model": "thaumicexploration:block/bound_jar_lime"
+    },
+    "color=pink": {
+      "model": "thaumicexploration:block/bound_jar_pink"
+    },
+    "color=gray": {
+      "model": "thaumicexploration:block/bound_jar_gray"
+    },
+    "color=light_gray": {
+      "model": "thaumicexploration:block/bound_jar_light_gray"
+    },
+    "color=cyan": {
+      "model": "thaumicexploration:block/bound_jar_cyan"
+    },
+    "color=purple": {
+      "model": "thaumicexploration:block/bound_jar_purple"
+    },
+    "color=blue": {
+      "model": "thaumicexploration:block/bound_jar_blue"
+    },
+    "color=brown": {
+      "model": "thaumicexploration:block/bound_jar_brown"
+    },
+    "color=green": {
+      "model": "thaumicexploration:block/bound_jar_green"
+    },
+    "color=red": {
+      "model": "thaumicexploration:block/bound_jar_red"
+    },
+    "color=black": {
+      "model": "thaumicexploration:block/bound_jar_black"
+    }
+  }
+}

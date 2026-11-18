@@ -1,0 +1,10 @@
+.gradle/
+build/
+run/
+libs/*.jar
+*.log
+.idea/
+out/
+build.log
+runserver.out
+dist/*.sha256

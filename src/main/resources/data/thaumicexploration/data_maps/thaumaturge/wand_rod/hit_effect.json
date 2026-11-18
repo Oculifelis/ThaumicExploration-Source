@@ -1,0 +1,9 @@
+{
+  "values": {
+    "thaumicexploration:necromancer_staff": {
+      "effect": "minecraft:wither",
+      "duration": 60,
+      "amplifier": 1
+    }
+  }
+}

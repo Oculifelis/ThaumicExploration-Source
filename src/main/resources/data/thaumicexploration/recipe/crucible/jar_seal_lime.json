@@ -1,0 +1,33 @@
+{
+  "type": "thaumaturge:crucible",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 6
+    },
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:vitreus",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:vinculum",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:motus",
+      "amount": 6
+    }
+  ],
+  "catalyst": "thaumicexploration:blank_seal_lime",
+  "research": {
+    "entry": "thaumicexploration:binding_seals"
+  },
+  "result": {
+    "id": "thaumicexploration:jar_seal_lime",
+    "count": 1
+  }
+}

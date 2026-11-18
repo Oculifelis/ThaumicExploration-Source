@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "thaumicexploration:item/blank_seal_light_blue"
+  }
+}

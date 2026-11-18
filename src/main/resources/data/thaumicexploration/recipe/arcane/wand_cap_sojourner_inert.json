@@ -1,0 +1,32 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 1
+    }
+  ],
+  "key": {
+    "A": "minecraft:lapis_lazuli",
+    "B": "minecraft:diamond"
+  },
+  "pattern": [
+    "ABA",
+    "A A"
+  ],
+  "research": {
+    "entry": "thaumicexploration:cap_sojourner"
+  },
+  "result": {
+    "id": "thaumicexploration:wand_cap_sojourner_inert"
+  },
+  "vis": 18
+}

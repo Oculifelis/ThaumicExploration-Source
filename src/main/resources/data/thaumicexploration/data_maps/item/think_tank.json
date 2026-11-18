@@ -1,0 +1,28 @@
+{
+  "values": {
+    "minecraft:book": {
+      "result": "thaumaturge:curio_knowledge",
+      "time": 200,
+      "outcomes": [
+        {
+          "chance": 0.1,
+          "count": 1
+        }
+      ]
+    },
+    "minecraft:enchanted_book": {
+      "result": "thaumaturge:curio_knowledge",
+      "time": 200,
+      "outcomes": [
+        {
+          "chance": 0.33,
+          "count": 1
+        },
+        {
+          "chance": 0.34,
+          "count": 2
+        }
+      ]
+    }
+  }
+}

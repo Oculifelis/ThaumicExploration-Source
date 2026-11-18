@@ -1,0 +1,33 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 20
+    },
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 4
+    }
+  ],
+  "catalyst": "minecraft:flower_pot",
+  "components": [
+    "minecraft:lava_bucket",
+    "minecraft:brick",
+    "minecraft:lava_bucket",
+    "minecraft:brick",
+    "minecraft:lava_bucket",
+    "minecraft:brick"
+  ],
+  "instability": 2,
+  "research": {
+    "entry": "thaumicexploration:everburn_urn"
+  },
+  "result": {
+    "id": "thaumicexploration:everburn_urn"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "thaumicexploration:everburn_urn",
+    "thaumicexploration:replicator",
+    "thaumicexploration:soul_crucible",
+    "thaumicexploration:soul_brazier"
+  ]
+}

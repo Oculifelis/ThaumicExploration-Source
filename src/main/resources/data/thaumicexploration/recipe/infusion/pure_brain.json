@@ -1,0 +1,30 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:humanus",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:cognitio",
+      "amount": 6
+    },
+    {
+      "aspect": "thaumaturge:victus",
+      "amount": 2
+    }
+  ],
+  "catalyst": "thaumaturge:brain",
+  "components": [
+    "minecraft:fermented_spider_eye",
+    "minecraft:golden_apple",
+    "minecraft:water_bucket"
+  ],
+  "instability": 3,
+  "research": {
+    "entry": "thaumicexploration:brain_cure"
+  },
+  "result": {
+    "id": "thaumicexploration:pure_brain"
+  }
+}

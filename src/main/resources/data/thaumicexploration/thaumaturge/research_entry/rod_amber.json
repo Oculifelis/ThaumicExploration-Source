@@ -1,0 +1,54 @@
+{
+  "category": "thaumicexploration:exploration",
+  "name": "research.thaumicexploration.rod_amber.title",
+  "parents": [
+    "thaumaturge:rod_greatwood"
+  ],
+  "column": -5,
+  "row": -1,
+  "icons": [
+    "thaumicexploration:wand_rod_amber"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumicexploration.rod_amber.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:auromancy",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:auromancy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumicexploration.rod_amber.stage_1",
+      "recipes": [
+        "thaumicexploration:infusion/wand_rod_amber"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:vinculum",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 8
+    }
+  ],
+  "complexity": 2
+}

@@ -1,0 +1,8 @@
+{
+  "values": {
+    "thaumicexploration:talisman_food": {
+      "capacity": 1000,
+      "interval": 20
+    }
+  }
+}

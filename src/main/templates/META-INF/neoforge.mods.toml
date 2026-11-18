@@ -1,0 +1,42 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="${mod_license}"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+authors="Flaxbeard (original Thaumic Exploration), GTNH team (1.7.10 maintenance), Oculifelis (port to Thaumaturge)"
+credits="Original mod and textures by Flaxbeard and contributors, CC BY-NC-SA 4.0; GTNewHorizons/Thaumic_Exploration maintainers. Thaumaturge by Leclowndu93150 and contributors."
+description='''
+A port of Thaumic Exploration (Thaumcraft 4 addon, GTNH 1.5.29) to Thaumaturge on NeoForge 26.1.2.
+Phase 1: the Thaumic Exploration research tab, Amber and Transmutative wand and staff cores, Flesh Purification and the Everburn Urn.
+Phase 2: primal rings, Thaumostatic Stabilizer and Talisman of Nourishment (Curios), floating candles.
+Phase 3: binding seals, bound chests and bound jars, the Jar of Oblivion.
+Phase 4: purified brain, Think Tank, Thaumic Replicator, Crucible of Souls.
+Phase 5: Sojourner's and Mechanist's caps, Baguette core, Boots of the Meteor and of the Comet.
+Phase 6: taint research, Wispy Dreamcatcher, Ring of the Taintacle, Binding, Disarming and Night Vision enchantments.
+Phase 7: Necromancer's staff core, Soul Brazier, Jade and JEI integration.
+'''
+
+[[mixins]]
+config="${mod_id}.mixins.json"
+
+[[dependencies.${mod_id}]]
+    modId="neoforge"
+    type="required"
+    versionRange="[26.1.2.71,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    type="required"
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.${mod_id}]]
+    modId="thaumaturge"
+    type="required"
+    versionRange="${thaumaturge_version_range}"
+    ordering="AFTER"
+    side="BOTH"

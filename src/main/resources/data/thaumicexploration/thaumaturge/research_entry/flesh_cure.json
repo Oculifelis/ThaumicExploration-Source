@@ -1,0 +1,50 @@
+{
+  "category": "thaumicexploration:exploration",
+  "name": "research.thaumicexploration.flesh_cure.title",
+  "parents": [
+    "thaumaturge:hedge_alchemy"
+  ],
+  "column": -4,
+  "row": -6,
+  "icons": [
+    "minecraft:rotten_flesh"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumicexploration.flesh_cure.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:alchemy",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:alchemy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumicexploration.flesh_cure.stage_1",
+      "recipes": [
+        "thaumicexploration:crucible/flesh_cure"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:praemunio",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:bestia",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 2
+    }
+  ],
+  "complexity": 1
+}

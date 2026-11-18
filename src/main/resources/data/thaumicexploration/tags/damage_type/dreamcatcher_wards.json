@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "thaumaturge:taint",
+    "thaumaturge:tentacle",
+    "thaumaturge:swarm"
+  ]
+}

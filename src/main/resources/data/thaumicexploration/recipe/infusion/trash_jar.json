@@ -1,0 +1,63 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 12
+    },
+    {
+      "aspect": "thaumaturge:desiderium",
+      "amount": 12
+    },
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 12
+    }
+  ],
+  "catalyst": "thaumaturge:jar_void",
+  "components": [
+    "thaumaturge:hungry_chest",
+    "thaumaturge:warded_glass",
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:perditio"
+        }
+      }
+    },
+    "thaumaturge:warded_glass",
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:perditio"
+        }
+      }
+    },
+    "thaumaturge:warded_glass",
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:perditio"
+        }
+      }
+    },
+    "thaumaturge:warded_glass"
+  ],
+  "instability": 7,
+  "research": {
+    "entry": "thaumicexploration:trash_jar"
+  },
+  "result": {
+    "id": "thaumicexploration:trash_jar"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "category": "thaumicexploration:exploration",
+  "name": "research.thaumicexploration.taint_basics.title",
+  "parents": [],
+  "column": -9,
+  "row": 0,
+  "icons": [
+    "thaumaturge:taint_tendril"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumicexploration.taint_basics.stage_0"
+    },
+    {
+      "text": "research.thaumicexploration.taint_basics.stage_1"
+    }
+  ],
+  "note_aspects": [],
+  "complexity": 1,
+  "meta": [
+    "autounlock",
+    "round"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "values": {
+    "thaumicexploration:tentacle_ring": {
+      "radius": 2,
+      "lifetime": 200
+    }
+  }
+}

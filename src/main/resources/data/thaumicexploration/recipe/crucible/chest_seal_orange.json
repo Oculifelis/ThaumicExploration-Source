@@ -1,0 +1,33 @@
+{
+  "type": "thaumaturge:crucible",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 6
+    },
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:vinculum",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:motus",
+      "amount": 6
+    }
+  ],
+  "catalyst": "thaumicexploration:blank_seal_orange",
+  "research": {
+    "entry": "thaumicexploration:binding_seals"
+  },
+  "result": {
+    "id": "thaumicexploration:chest_seal_orange",
+    "count": 1
+  }
+}

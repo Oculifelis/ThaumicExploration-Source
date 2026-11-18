@@ -1,0 +1,38 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:fabrico",
+      "amount": 50
+    },
+    {
+      "aspect": "thaumaturge:machina",
+      "amount": 30
+    },
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 30
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 20
+    }
+  ],
+  "catalyst": "thaumaturge:pedestal_arcane",
+  "components": [
+    "thaumaturge:arcane_workbench",
+    "minecraft:gold_ingot",
+    "thaumaturge:ingot_thaumium",
+    "minecraft:gold_ingot",
+    "thaumaturge:ingot_thaumium",
+    "minecraft:gold_ingot",
+    "thaumaturge:ingot_thaumium"
+  ],
+  "instability": 9,
+  "research": {
+    "entry": "thaumicexploration:replicator"
+  },
+  "result": {
+    "id": "thaumicexploration:replicator"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "thaumaturge:crucible",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:bestia",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:fabrico",
+      "amount": 1
+    }
+  ],
+  "catalyst": "minecraft:rotten_flesh",
+  "research": {
+    "entry": "thaumicexploration:flesh_cure"
+  },
+  "result": {
+    "id": "minecraft:leather",
+    "count": 2
+  }
+}

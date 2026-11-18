@@ -1,0 +1,14 @@
+{
+  "values": {
+    "thaumicexploration:bread": {
+      "chance": 0.001,
+      "messages": [
+        "thaumicexploration.bread0",
+        "thaumicexploration.bread1",
+        "thaumicexploration.bread2",
+        "thaumicexploration.bread3",
+        "thaumicexploration.bread4"
+      ]
+    }
+  }
+}

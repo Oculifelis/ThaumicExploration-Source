@@ -1,0 +1,51 @@
+{
+  "category": "thaumicexploration:exploration",
+  "name": "research.thaumicexploration.stabilizer_belt.title",
+  "parents": [
+    "thaumaturge:thaumostatic_harness",
+    "thaumaturge:infusion"
+  ],
+  "column": 1,
+  "row": -10,
+  "icons": [
+    "thaumicexploration:stabilizer_belt"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumicexploration.stabilizer_belt.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumicexploration.stabilizer_belt.stage_1",
+      "recipes": [
+        "thaumicexploration:infusion/stabilizer_belt"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:motus",
+      "amount": 2
+    }
+  ],
+  "complexity": 1
+}

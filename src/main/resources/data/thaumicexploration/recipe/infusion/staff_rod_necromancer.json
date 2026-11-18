@@ -1,0 +1,37 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:mortuus",
+      "amount": 32
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:spiritus",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 8
+    }
+  ],
+  "catalyst": "thaumaturge:staff_rod_bone",
+  "components": [
+    "minecraft:wither_skeleton_skull",
+    "minecraft:rotten_flesh",
+    "minecraft:bone",
+    "thaumicexploration:pure_brain",
+    "minecraft:bone",
+    "minecraft:rotten_flesh"
+  ],
+  "instability": 6,
+  "research": {
+    "entry": "thaumicexploration:rod_necromancer_staff"
+  },
+  "result": {
+    "id": "thaumicexploration:staff_rod_necromancer"
+  }
+}

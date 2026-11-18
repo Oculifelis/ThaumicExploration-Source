@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " X ",
+    "XZX",
+    " X "
+  ],
+  "key": {
+    "X": "thaumaturge:tallow",
+    "Z": "minecraft:purple_dye"
+  },
+  "result": {
+    "id": "thaumicexploration:blank_seal_purple"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "category": "thaumicexploration:exploration",
+  "name": "research.thaumicexploration.binding_seals.title",
+  "parents": [
+    "thaumaturge:warded_jars"
+  ],
+  "column": -7,
+  "row": -2,
+  "icons": [
+    "thaumicexploration:jar_seal_purple"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumicexploration.binding_seals.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:alchemy",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:alchemy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumicexploration.binding_seals.stage_1",
+      "recipes": [
+        "thaumicexploration:crafting/blank_seal_purple",
+        "thaumicexploration:crucible/chest_seal_purple",
+        "thaumicexploration:crucible/jar_seal_purple"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:vinculum",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:motus",
+      "amount": 5
+    }
+  ],
+  "complexity": 1,
+  "meta": [
+    "hidden"
+  ]
+}

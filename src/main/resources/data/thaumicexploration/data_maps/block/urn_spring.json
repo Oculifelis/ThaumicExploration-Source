@@ -1,0 +1,14 @@
+{
+  "values": {
+    "thaumaturge:everfull_urn": {
+      "range": 3,
+      "y_range": 2,
+      "interval": 5,
+      "mb_per_push": 50,
+      "cauldron_pushes": 8,
+      "needs_air_above": true,
+      "extinguish": true,
+      "fountain": true
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:machina",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 12
+    },
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 6
+    },
+    {
+      "aspect": "thaumaturge:potentia",
+      "amount": 12
+    }
+  ],
+  "catalyst": "thaumicexploration:wand_cap_mechanist_inert",
+  "components": [
+    "thaumaturge:salis_mundus",
+    "thaumaturge:salis_mundus"
+  ],
+  "instability": 5,
+  "research": {
+    "entry": "thaumicexploration:cap_mechanist"
+  },
+  "result": {
+    "id": "thaumicexploration:wand_cap_mechanist"
+  }
+}

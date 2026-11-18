@@ -1,0 +1,30 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:mortuus",
+      "amount": 32
+    },
+    {
+      "aspect": "thaumaturge:tenebrae",
+      "amount": 32
+    },
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 32
+    }
+  ],
+  "catalyst": "minecraft:nether_star",
+  "components": [
+    "thaumaturge:brain",
+    "thaumaturge:ingot_void",
+    "thaumaturge:ingot_void"
+  ],
+  "instability": 7,
+  "research": {
+    "entry": "thaumicexploration:soul_brazier"
+  },
+  "result": {
+    "id": "thaumicexploration:soul_brazier"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "category": "thaumicexploration:exploration",
+  "name": "research.thaumicexploration.cap_sojourner.title",
+  "parents": [
+    "thaumaturge:cap_thaumium"
+  ],
+  "column": -5,
+  "row": -8,
+  "icons": [
+    "thaumicexploration:wand_cap_sojourner"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumicexploration.cap_sojourner.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:auromancy",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:auromancy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumicexploration.cap_sojourner.stage_1",
+      "recipes": [
+        "thaumicexploration:arcane/wand_cap_sojourner_inert",
+        "thaumicexploration:infusion/wand_cap_sojourner"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:potentia",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:desiderium",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 3
+    }
+  ],
+  "complexity": 2
+}

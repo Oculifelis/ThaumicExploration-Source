@@ -1,0 +1,51 @@
+{
+  "category": "thaumicexploration:exploration",
+  "name": "research.thaumicexploration.rod_bread.title",
+  "parents": [
+    "thaumaturge:rod_greatwood",
+    "thaumaturge:infusion"
+  ],
+  "column": -3,
+  "row": -3,
+  "icons": [
+    "thaumicexploration:wand_rod_bread"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumicexploration.rod_bread.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:auromancy",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:auromancy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumicexploration.rod_bread.stage_1",
+      "recipes": [
+        "thaumicexploration:infusion/wand_rod_bread"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:herba",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:desiderium",
+      "amount": 2
+    }
+  ],
+  "complexity": 1
+}

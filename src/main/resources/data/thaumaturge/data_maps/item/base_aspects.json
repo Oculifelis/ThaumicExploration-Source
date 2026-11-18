@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": {
+    "thaumicexploration:linked_chest_seal": [
+      {
+        "aspect": "thaumaturge:vinculum",
+        "amount": 3
+      },
+      {
+        "aspect": "thaumaturge:alienis",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:permutatio",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 1
+      }
+    ]
+  }
+}

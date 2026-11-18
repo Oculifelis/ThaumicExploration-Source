@@ -1,0 +1,10 @@
+{
+  "parent": "thaumaturge:block/crucible",
+  "textures": {
+    "particle": "thaumicexploration:block/soul_crucible_side",
+    "top": "thaumicexploration:block/soul_crucible_top",
+    "side": "thaumicexploration:block/soul_crucible_side",
+    "inner": "thaumicexploration:block/soul_crucible_inner",
+    "bottom": "thaumicexploration:block/soul_crucible_bottom"
+  }
+}

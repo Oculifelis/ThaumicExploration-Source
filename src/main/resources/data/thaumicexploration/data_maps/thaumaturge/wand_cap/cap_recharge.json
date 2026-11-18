@@ -1,0 +1,30 @@
+{
+  "values": {
+    "thaumicexploration:sojourner": {
+      "source": "aura",
+      "interval": 20,
+      "centivis": 100,
+      "aspects": [
+        "thaumaturge:aer",
+        "thaumaturge:terra",
+        "thaumaturge:ignis",
+        "thaumaturge:aqua",
+        "thaumaturge:ordo",
+        "thaumaturge:perditio"
+      ]
+    },
+    "thaumicexploration:mechanist": {
+      "source": "relay",
+      "interval": 20,
+      "centivis": 100,
+      "aspects": [
+        "thaumaturge:aer",
+        "thaumaturge:terra",
+        "thaumaturge:ignis",
+        "thaumaturge:aqua",
+        "thaumaturge:ordo",
+        "thaumaturge:perditio"
+      ]
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "values": {
+    "thaumicexploration:meteor_boots": [
+      {
+        "attribute": "minecraft:movement_speed",
+        "id": "thaumicexploration:meteor_speed",
+        "amount": 0.3,
+        "operation": "add_multiplied_base",
+        "slot": "feet"
+      },
+      {
+        "attribute": "minecraft:step_height",
+        "id": "thaumicexploration:meteor_step",
+        "amount": 0.4,
+        "operation": "add_value",
+        "slot": "feet"
+      },
+      {
+        "attribute": "minecraft:jump_strength",
+        "id": "thaumicexploration:meteor_jump",
+        "amount": 0.1,
+        "operation": "add_value",
+        "slot": "feet"
+      },
+      {
+        "attribute": "minecraft:fall_damage_multiplier",
+        "id": "thaumicexploration:meteor_fall",
+        "amount": -1.0,
+        "operation": "add_multiplied_total",
+        "slot": "feet"
+      }
+    ],
+    "thaumicexploration:comet_boots": [
+      {
+        "attribute": "minecraft:movement_speed",
+        "id": "thaumicexploration:comet_speed",
+        "amount": 0.6,
+        "operation": "add_multiplied_base",
+        "slot": "feet"
+      },
+      {
+        "attribute": "minecraft:step_height",
+        "id": "thaumicexploration:comet_step",
+        "amount": 0.4,
+        "operation": "add_value",
+        "slot": "feet"
+      },
+      {
+        "attribute": "minecraft:jump_strength",
+        "id": "thaumicexploration:comet_jump",
+        "amount": 0.1,
+        "operation": "add_value",
+        "slot": "feet"
+      },
+      {
+        "attribute": "minecraft:safe_fall_distance",
+        "id": "thaumicexploration:comet_fall",
+        "amount": 4.0,
+        "operation": "add_value",
+        "slot": "feet"
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "thaumicexploration:ring_aer",
+    "thaumicexploration:ring_terra",
+    "thaumicexploration:ring_ignis",
+    "thaumicexploration:ring_aqua",
+    "thaumicexploration:ring_ordo",
+    "thaumicexploration:ring_perditio",
+    "thaumicexploration:tentacle_ring"
+  ]
+}

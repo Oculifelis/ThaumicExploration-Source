@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "thaumaturge:everfull_urn",
+    "thaumicexploration:everburn_urn",
+    "thaumicexploration:trash_jar"
+  ]
+}
