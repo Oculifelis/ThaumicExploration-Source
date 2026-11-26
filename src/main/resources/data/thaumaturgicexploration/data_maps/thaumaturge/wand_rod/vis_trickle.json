@@ -1,0 +1,30 @@
+{
+  "values": {
+    "thaumaturgicexploration:amber": {
+      "interval": 100,
+      "centivis": 100,
+      "below": 1.0,
+      "aspects": [
+        "thaumaturge:aer",
+        "thaumaturge:terra",
+        "thaumaturge:ignis",
+        "thaumaturge:aqua",
+        "thaumaturge:ordo",
+        "thaumaturge:perditio"
+      ]
+    },
+    "thaumaturgicexploration:amber_staff": {
+      "interval": 100,
+      "centivis": 100,
+      "below": 1.0,
+      "aspects": [
+        "thaumaturge:aer",
+        "thaumaturge:terra",
+        "thaumaturge:ignis",
+        "thaumaturge:aqua",
+        "thaumaturge:ordo",
+        "thaumaturge:perditio"
+      ]
+    }
+  }
+}

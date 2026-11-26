@@ -1,0 +1,55 @@
+{
+  "description": {
+    "translate": "enchantment.thaumaturgicexploration.disarming"
+  },
+  "exclusive_set": "#thaumaturgicexploration:exclusive_set/disarming",
+  "supported_items": "#minecraft:swords",
+  "weight": 2,
+  "max_level": 3,
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first": 20
+  },
+  "max_cost": {
+    "base": 60,
+    "per_level_above_first": 20
+  },
+  "anvil_cost": 4,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "enchanted": "attacker",
+        "affected": "victim",
+        "requirements": {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "#thaumaturgicexploration:disarm_immune"
+            }
+          }
+        },
+        "effect": {
+          "type": "thaumaturgicexploration:disarm",
+          "chance": {
+            "type": "minecraft:lookup",
+            "values": [
+              0.125,
+              0.1667,
+              0.25
+            ],
+            "fallback": {
+              "type": "minecraft:linear",
+              "base": 0.25,
+              "per_level_above_first": 0.05
+            }
+          }
+        }
+      }
+    ]
+  }
+}

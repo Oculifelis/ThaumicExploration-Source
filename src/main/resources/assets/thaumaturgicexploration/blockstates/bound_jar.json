@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "color=white": {
+      "model": "thaumaturgicexploration:block/bound_jar_white"
+    },
+    "color=orange": {
+      "model": "thaumaturgicexploration:block/bound_jar_orange"
+    },
+    "color=magenta": {
+      "model": "thaumaturgicexploration:block/bound_jar_magenta"
+    },
+    "color=light_blue": {
+      "model": "thaumaturgicexploration:block/bound_jar_light_blue"
+    },
+    "color=yellow": {
+      "model": "thaumaturgicexploration:block/bound_jar_yellow"
+    },
+    "color=lime": {
+      "model": "thaumaturgicexploration:block/bound_jar_lime"
+    },
+    "color=pink": {
+      "model": "thaumaturgicexploration:block/bound_jar_pink"
+    },
+    "color=gray": {
+      "model": "thaumaturgicexploration:block/bound_jar_gray"
+    },
+    "color=light_gray": {
+      "model": "thaumaturgicexploration:block/bound_jar_light_gray"
+    },
+    "color=cyan": {
+      "model": "thaumaturgicexploration:block/bound_jar_cyan"
+    },
+    "color=purple": {
+      "model": "thaumaturgicexploration:block/bound_jar_purple"
+    },
+    "color=blue": {
+      "model": "thaumaturgicexploration:block/bound_jar_blue"
+    },
+    "color=brown": {
+      "model": "thaumaturgicexploration:block/bound_jar_brown"
+    },
+    "color=green": {
+      "model": "thaumaturgicexploration:block/bound_jar_green"
+    },
+    "color=red": {
+      "model": "thaumaturgicexploration:block/bound_jar_red"
+    },
+    "color=black": {
+      "model": "thaumaturgicexploration:block/bound_jar_black"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "thaumaturgicexploration:block/think_tank"
+    },
+    "lit=true": {
+      "model": "thaumaturgicexploration:block/think_tank"
+    }
+  }
+}

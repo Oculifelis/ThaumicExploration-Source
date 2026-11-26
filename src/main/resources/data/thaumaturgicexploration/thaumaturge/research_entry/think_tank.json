@@ -1,0 +1,58 @@
+{
+  "category": "thaumaturgicexploration:exploration",
+  "name": "research.thaumaturgicexploration.think_tank.title",
+  "parents": [
+    "thaumaturgicexploration:brain_cure",
+    "thaumaturge:research_expertise"
+  ],
+  "column": -1,
+  "row": -5,
+  "icons": [
+    "thaumaturgicexploration:think_tank"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicexploration.think_tank.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicexploration.think_tank.stage_1",
+      "recipes": [
+        "thaumaturgicexploration:infusion/think_tank"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:exanimis",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:cognitio",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:sensus",
+      "amount": 6
+    },
+    {
+      "aspect": "thaumaturge:desiderium",
+      "amount": 2
+    }
+  ],
+  "complexity": 3,
+  "meta": [
+    "hidden"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 15
+    }
+  ],
+  "key": {
+    "F": {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:perditio"
+        }
+      }
+    }
+  },
+  "pattern": [
+    " F ",
+    "F F",
+    " F "
+  ],
+  "research": {
+    "entry": "thaumaturgicexploration:discount_rings"
+  },
+  "result": {
+    "id": "thaumaturgicexploration:ring_perditio"
+  },
+  "vis": 10
+}

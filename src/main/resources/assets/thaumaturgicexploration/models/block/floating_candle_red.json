@@ -1,0 +1,6 @@
+{
+  "parent": "thaumaturgicexploration:block/floating_candle",
+  "textures": {
+    "all": "thaumaturgicexploration:block/floating_candle_red"
+  }
+}

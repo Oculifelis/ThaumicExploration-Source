@@ -1,0 +1,29 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 14
+    },
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:vinculum",
+      "amount": 6
+    }
+  ],
+  "catalyst": "thaumaturge:amber_block",
+  "components": [
+    "thaumaturge:salis_mundus",
+    "thaumaturge:salis_mundus"
+  ],
+  "instability": 5,
+  "research": {
+    "entry": "thaumaturgicexploration:rod_amber"
+  },
+  "result": {
+    "id": "thaumaturgicexploration:wand_rod_amber"
+  }
+}

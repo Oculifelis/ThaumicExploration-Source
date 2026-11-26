@@ -1,0 +1,45 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:desiderium",
+      "amount": 32
+    },
+    {
+      "aspect": "thaumaturge:cognitio",
+      "amount": 48
+    },
+    {
+      "aspect": "thaumaturge:sensus",
+      "amount": 32
+    },
+    {
+      "aspect": "thaumaturge:exanimis",
+      "amount": 32
+    },
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 24
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 16
+    }
+  ],
+  "catalyst": "thaumaturge:jar_normal",
+  "components": [
+    "thaumaturgicexploration:pure_brain",
+    "thaumaturge:scribing_tools",
+    "thaumaturgicexploration:pure_brain",
+    "thaumaturge:thaumonomicon",
+    "thaumaturgicexploration:pure_brain",
+    "thaumaturge:thaumometer"
+  ],
+  "instability": 6,
+  "research": {
+    "entry": "thaumaturgicexploration:think_tank"
+  },
+  "result": {
+    "id": "thaumaturgicexploration:think_tank"
+  }
+}

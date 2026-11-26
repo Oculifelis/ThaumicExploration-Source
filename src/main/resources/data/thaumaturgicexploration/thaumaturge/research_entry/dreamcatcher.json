@@ -1,0 +1,50 @@
+{
+  "category": "thaumaturgicexploration:exploration",
+  "name": "research.thaumaturgicexploration.dreamcatcher.title",
+  "parents": [
+    "thaumaturgicexploration:taint_basics"
+  ],
+  "column": -7,
+  "row": 2,
+  "icons": [
+    "thaumaturgicexploration:dreamcatcher"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicexploration.dreamcatcher.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:auromancy",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:auromancy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicexploration.dreamcatcher.stage_1",
+      "recipes": [
+        "thaumaturgicexploration:arcane/dreamcatcher"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:cognitio",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:vitium",
+      "amount": 6
+    }
+  ],
+  "complexity": 2
+}

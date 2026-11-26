@@ -1,0 +1,53 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 12
+    },
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 12
+    },
+    {
+      "aspect": "thaumaturge:praemunio",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:motus",
+      "amount": 8
+    }
+  ],
+  "catalyst": "thaumaturge:girdle_mundane",
+  "components": [
+    "minecraft:iron_ingot",
+    "minecraft:iron_ingot",
+    "minecraft:gold_ingot",
+    "minecraft:gold_ingot",
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:ordo"
+        }
+      }
+    },
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:terra"
+        }
+      }
+    }
+  ],
+  "instability": 3,
+  "research": {
+    "entry": "thaumaturgicexploration:stabilizer_belt"
+  },
+  "result": {
+    "id": "thaumaturgicexploration:stabilizer_belt"
+  }
+}

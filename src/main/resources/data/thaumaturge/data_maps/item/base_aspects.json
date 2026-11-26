@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": {
-    "thaumicexploration:linked_chest_seal": [
+    "thaumaturgicexploration:linked_chest_seal": [
       {
         "aspect": "thaumaturge:vinculum",
         "amount": 3

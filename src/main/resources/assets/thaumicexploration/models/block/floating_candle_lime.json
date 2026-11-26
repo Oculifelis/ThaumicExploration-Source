@@ -1,6 +1,0 @@
-{
-  "parent": "thaumicexploration:block/floating_candle",
-  "textures": {
-    "all": "thaumicexploration:block/floating_candle_lime"
-  }
-}

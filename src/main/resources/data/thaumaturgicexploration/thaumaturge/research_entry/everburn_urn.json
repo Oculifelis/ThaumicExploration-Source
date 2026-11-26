@@ -1,0 +1,50 @@
+{
+  "category": "thaumaturgicexploration:exploration",
+  "name": "research.thaumaturgicexploration.everburn_urn.title",
+  "parents": [
+    "thaumaturge:everfull_urn"
+  ],
+  "column": 4,
+  "row": -6,
+  "icons": [
+    "thaumaturgicexploration:everburn_urn"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicexploration.everburn_urn.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:alchemy",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:alchemy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicexploration.everburn_urn.stage_1",
+      "recipes": [
+        "thaumaturgicexploration:infusion/everburn_urn"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 5
+    }
+  ],
+  "complexity": 1
+}

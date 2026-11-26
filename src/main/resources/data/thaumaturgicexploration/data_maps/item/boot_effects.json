@@ -1,0 +1,13 @@
+{
+  "values": {
+    "thaumaturgicexploration:meteor_boots": {
+      "dash": 1.0,
+      "smash": true
+    },
+    "thaumaturgicexploration:comet_boots": {
+      "frost_walk": 3,
+      "ramp_per_second": 0.08,
+      "ramp_max": 0.4
+    }
+  }
+}

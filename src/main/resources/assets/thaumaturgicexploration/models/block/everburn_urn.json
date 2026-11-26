@@ -1,0 +1,7 @@
+{
+  "parent": "thaumaturge:block/everfull_urn",
+  "textures": {
+    "0": "thaumaturgicexploration:block/everburn_urn",
+    "particle": "thaumaturgicexploration:block/everburn_urn"
+  }
+}

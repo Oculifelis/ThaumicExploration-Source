@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "thaumaturgicexploration:block/replicator"
+    },
+    "powered=true": {
+      "model": "thaumaturgicexploration:block/replicator"
+    }
+  }
+}

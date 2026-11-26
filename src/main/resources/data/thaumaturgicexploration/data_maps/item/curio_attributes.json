@@ -1,0 +1,60 @@
+{
+  "values": {
+    "thaumaturgicexploration:ring_aer": [
+      {
+        "attribute": "thaumaturge:vis_discount",
+        "id": "thaumaturgicexploration:ring_aer",
+        "amount": 0.03,
+        "operation": "add_value"
+      }
+    ],
+    "thaumaturgicexploration:ring_terra": [
+      {
+        "attribute": "thaumaturge:vis_discount",
+        "id": "thaumaturgicexploration:ring_terra",
+        "amount": 0.03,
+        "operation": "add_value"
+      }
+    ],
+    "thaumaturgicexploration:ring_ignis": [
+      {
+        "attribute": "thaumaturge:vis_discount",
+        "id": "thaumaturgicexploration:ring_ignis",
+        "amount": 0.03,
+        "operation": "add_value"
+      }
+    ],
+    "thaumaturgicexploration:ring_aqua": [
+      {
+        "attribute": "thaumaturge:vis_discount",
+        "id": "thaumaturgicexploration:ring_aqua",
+        "amount": 0.03,
+        "operation": "add_value"
+      }
+    ],
+    "thaumaturgicexploration:ring_ordo": [
+      {
+        "attribute": "thaumaturge:vis_discount",
+        "id": "thaumaturgicexploration:ring_ordo",
+        "amount": 0.03,
+        "operation": "add_value"
+      }
+    ],
+    "thaumaturgicexploration:ring_perditio": [
+      {
+        "attribute": "thaumaturge:vis_discount",
+        "id": "thaumaturgicexploration:ring_perditio",
+        "amount": 0.03,
+        "operation": "add_value"
+      }
+    ],
+    "thaumaturgicexploration:stabilizer_belt": [
+      {
+        "attribute": "minecraft:knockback_resistance",
+        "id": "thaumaturgicexploration:stabilizer_belt",
+        "amount": 1.0,
+        "operation": "add_value"
+      }
+    ]
+  }
+}

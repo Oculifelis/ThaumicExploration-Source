@@ -1,0 +1,16 @@
+{
+  "values": {
+    "thaumaturgicexploration:soul_brazier": {
+      "vis": "thaumaturge:ignis",
+      "essentia": "thaumaturge:mortuus",
+      "vis_capacity": 1600,
+      "essentia_capacity": 16,
+      "vis_per_cycle": 300,
+      "essentia_per_cycle": 1,
+      "cycle": 60,
+      "taint_interval": 50,
+      "taint_radius": 16,
+      "taint_pressure": 0.05
+    }
+  }
+}

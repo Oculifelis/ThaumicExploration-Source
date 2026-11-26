@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "thaumaturgicexploration:block/soul_brazier"
+    },
+    "lit=true": {
+      "model": "thaumaturgicexploration:block/soul_brazier_lit"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "category": "thaumaturgicexploration:exploration",
+  "name": "research.thaumaturgicexploration.discount_rings.title",
+  "parents": [
+    "thaumaturge:base_artifice"
+  ],
+  "column": 1,
+  "row": 3,
+  "icons": [
+    "thaumaturgicexploration:ring_ignis"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicexploration.discount_rings.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:artifice",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:artifice",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicexploration.discount_rings.stage_1",
+      "recipes": [
+        "thaumaturgicexploration:arcane/ring_aer",
+        "thaumaturgicexploration:arcane/ring_terra",
+        "thaumaturgicexploration:arcane/ring_ignis",
+        "thaumaturgicexploration:arcane/ring_aqua",
+        "thaumaturgicexploration:arcane/ring_ordo",
+        "thaumaturgicexploration:arcane/ring_perditio"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:vitreus",
+      "amount": 2
+    }
+  ],
+  "complexity": 1,
+  "meta": [
+    "hidden"
+  ]
+}

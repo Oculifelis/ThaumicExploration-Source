@@ -1,0 +1,35 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:vinculum",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:motus",
+      "amount": 4
+    }
+  ],
+  "catalyst": "minecraft:book",
+  "components": [
+    "minecraft:iron_sword",
+    "thaumaturge:salis_mundus",
+    "minecraft:soul_sand"
+  ],
+  "instability": 3,
+  "research": {
+    "entry": "thaumaturgicexploration:binding"
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "thaumaturgicexploration:binding": 1
+      }
+    }
+  }
+}

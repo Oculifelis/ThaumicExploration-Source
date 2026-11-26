@@ -1,0 +1,6 @@
+{
+  "parent": "thaumaturgicexploration:block/bound_jar",
+  "textures": {
+    "seal": "thaumaturgicexploration:block/seal/jar_seal_gray"
+  }
+}

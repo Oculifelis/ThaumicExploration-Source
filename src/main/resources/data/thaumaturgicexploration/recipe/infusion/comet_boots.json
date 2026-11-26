@@ -1,0 +1,32 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 25
+    },
+    {
+      "aspect": "thaumaturge:gelum",
+      "amount": 25
+    },
+    {
+      "aspect": "thaumaturge:motus",
+      "amount": 50
+    }
+  ],
+  "catalyst": "thaumaturge:traveller_boots",
+  "components": [
+    "thaumaturge:crystal_aqua",
+    "minecraft:snow_block",
+    "minecraft:snow_block",
+    "minecraft:snow_block",
+    "minecraft:blue_ice"
+  ],
+  "instability": 4,
+  "research": {
+    "entry": "thaumaturgicexploration:comet_boots"
+  },
+  "result": {
+    "id": "thaumaturgicexploration:comet_boots"
+  }
+}

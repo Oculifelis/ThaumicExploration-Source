@@ -1,0 +1,14 @@
+{
+  "values": {
+    "thaumaturgicexploration:bread": {
+      "chance": 0.001,
+      "messages": [
+        "thaumaturgicexploration.bread0",
+        "thaumaturgicexploration.bread1",
+        "thaumaturgicexploration.bread2",
+        "thaumaturgicexploration.bread3",
+        "thaumaturgicexploration.bread4"
+      ]
+    }
+  }
+}

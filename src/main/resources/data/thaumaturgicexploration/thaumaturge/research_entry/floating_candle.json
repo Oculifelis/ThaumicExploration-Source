@@ -1,0 +1,68 @@
+{
+  "category": "thaumaturgicexploration:exploration",
+  "name": "research.thaumaturgicexploration.floating_candle.title",
+  "parents": [
+    "thaumaturge:hedge_alchemy"
+  ],
+  "column": -7,
+  "row": -9,
+  "icons": [
+    "thaumaturgicexploration:floating_candle_purple"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicexploration.floating_candle.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:alchemy",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:alchemy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicexploration.floating_candle.stage_1",
+      "recipes": [
+        "thaumaturgicexploration:arcane/floating_candle_white",
+        "thaumaturgicexploration:arcane/floating_candle_orange",
+        "thaumaturgicexploration:arcane/floating_candle_magenta",
+        "thaumaturgicexploration:arcane/floating_candle_light_blue",
+        "thaumaturgicexploration:arcane/floating_candle_yellow",
+        "thaumaturgicexploration:arcane/floating_candle_lime",
+        "thaumaturgicexploration:arcane/floating_candle_pink",
+        "thaumaturgicexploration:arcane/floating_candle_gray",
+        "thaumaturgicexploration:arcane/floating_candle_light_gray",
+        "thaumaturgicexploration:arcane/floating_candle_cyan",
+        "thaumaturgicexploration:arcane/floating_candle_purple",
+        "thaumaturgicexploration:arcane/floating_candle_blue",
+        "thaumaturgicexploration:arcane/floating_candle_brown",
+        "thaumaturgicexploration:arcane/floating_candle_green",
+        "thaumaturgicexploration:arcane/floating_candle_red",
+        "thaumaturgicexploration:arcane/floating_candle_black"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:bestia",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 3
+    }
+  ],
+  "complexity": 1,
+  "meta": [
+    "hidden"
+  ]
+}

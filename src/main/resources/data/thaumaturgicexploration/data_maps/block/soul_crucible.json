@@ -1,0 +1,12 @@
+{
+  "values": {
+    "thaumaturgicexploration:soul_crucible": {
+      "range": 5,
+      "drain_interval": 10,
+      "damage": 1.0,
+      "keep_chance": 0.3333,
+      "split_chance": 0.3333,
+      "flux_per_point": 0.4
+    }
+  }
+}

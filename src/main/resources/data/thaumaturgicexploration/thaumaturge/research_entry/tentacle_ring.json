@@ -1,0 +1,50 @@
+{
+  "category": "thaumaturgicexploration:exploration",
+  "name": "research.thaumaturgicexploration.tentacle_ring.title",
+  "parents": [
+    "thaumaturgicexploration:taint_basics"
+  ],
+  "column": -11,
+  "row": 2,
+  "icons": [
+    "thaumaturgicexploration:tentacle_ring"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicexploration.tentacle_ring.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:auromancy",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:auromancy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicexploration.tentacle_ring.stage_1",
+      "recipes": [
+        "thaumaturgicexploration:infusion/tentacle_ring"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:vitium",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:praemunio",
+      "amount": 4
+    }
+  ],
+  "complexity": 2
+}

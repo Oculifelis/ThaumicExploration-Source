@@ -1,0 +1,45 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:mortuus",
+      "amount": 40
+    },
+    {
+      "aspect": "thaumaturge:exanimis",
+      "amount": 10
+    },
+    {
+      "aspect": "thaumaturge:desiderium",
+      "amount": 20
+    },
+    {
+      "aspect": "thaumaturge:vinculum",
+      "amount": 20
+    },
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:spiritus",
+      "amount": 30
+    }
+  ],
+  "catalyst": "thaumaturge:crucible",
+  "components": [
+    "minecraft:rotten_flesh",
+    "minecraft:bone",
+    "minecraft:ghast_tear",
+    "minecraft:soul_sand",
+    "thaumaturge:alembic",
+    "thaumaturge:smelter_basic"
+  ],
+  "instability": 5,
+  "research": {
+    "entry": "thaumaturgicexploration:soul_crucible"
+  },
+  "result": {
+    "id": "thaumaturgicexploration:soul_crucible"
+  }
+}

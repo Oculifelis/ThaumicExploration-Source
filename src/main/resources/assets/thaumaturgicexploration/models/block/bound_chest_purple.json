@@ -1,0 +1,6 @@
+{
+  "parent": "thaumaturgicexploration:block/bound_chest",
+  "textures": {
+    "seal": "thaumaturgicexploration:block/seal/chest_seal_purple"
+  }
+}

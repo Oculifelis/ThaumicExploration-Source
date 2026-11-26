@@ -1,0 +1,60 @@
+{
+  "category": "thaumaturgicexploration:exploration",
+  "name": "research.thaumaturgicexploration.cap_mechanist.title",
+  "parents": [
+    "thaumaturge:cap_thaumium",
+    "thaumaturge:vis_relay"
+  ],
+  "column": -9,
+  "row": -6,
+  "icons": [
+    "thaumaturgicexploration:wand_cap_mechanist"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicexploration.cap_mechanist.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:auromancy",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:auromancy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicexploration.cap_mechanist.stage_1",
+      "recipes": [
+        "thaumaturgicexploration:arcane/wand_cap_mechanist_inert",
+        "thaumaturgicexploration:infusion/wand_cap_mechanist"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:machina",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:potentia",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:desiderium",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 3
+    }
+  ],
+  "complexity": 2
+}

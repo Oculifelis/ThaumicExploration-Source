@@ -1,0 +1,32 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 15
+    }
+  ],
+  "key": {
+    "F": {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:ordo"
+        }
+      }
+    }
+  },
+  "pattern": [
+    " F ",
+    "F F",
+    " F "
+  ],
+  "research": {
+    "entry": "thaumaturgicexploration:discount_rings"
+  },
+  "result": {
+    "id": "thaumaturgicexploration:ring_ordo"
+  },
+  "vis": 10
+}

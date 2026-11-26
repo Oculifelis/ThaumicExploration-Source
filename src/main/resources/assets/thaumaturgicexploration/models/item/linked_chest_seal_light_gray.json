@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "thaumaturgicexploration:item/chest_seal_light_gray",
+    "layer1": "thaumaturgicexploration:item/linked_chest_seal_overlay"
+  }
+}

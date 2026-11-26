@@ -1,0 +1,15 @@
+{
+  "values": {
+    "thaumaturgicexploration:necromancer_staff": {
+      "centivis_per_health": 10,
+      "aspects": [
+        "thaumaturge:aer",
+        "thaumaturge:terra",
+        "thaumaturge:ignis",
+        "thaumaturge:aqua",
+        "thaumaturge:ordo",
+        "thaumaturge:perditio"
+      ]
+    }
+  }
+}

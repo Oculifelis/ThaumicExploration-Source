@@ -1,0 +1,30 @@
+{
+  "values": {
+    "thaumaturgicexploration:transmutative": {
+      "interval": 20,
+      "threshold": 0.9,
+      "efficiency": 0.25,
+      "aspects": [
+        "thaumaturge:aer",
+        "thaumaturge:terra",
+        "thaumaturge:ignis",
+        "thaumaturge:aqua",
+        "thaumaturge:ordo",
+        "thaumaturge:perditio"
+      ]
+    },
+    "thaumaturgicexploration:transmutative_staff": {
+      "interval": 20,
+      "threshold": 0.9,
+      "efficiency": 0.25,
+      "aspects": [
+        "thaumaturge:aer",
+        "thaumaturge:terra",
+        "thaumaturge:ignis",
+        "thaumaturge:aqua",
+        "thaumaturge:ordo",
+        "thaumaturge:perditio"
+      ]
+    }
+  }
+}

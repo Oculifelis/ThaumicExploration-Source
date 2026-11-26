@@ -1,0 +1,55 @@
+{
+  "category": "thaumaturgicexploration:exploration",
+  "name": "research.thaumaturgicexploration.meteor_boots.title",
+  "parents": [
+    "thaumaturge:boots_traveller",
+    "thaumaturge:infusion"
+  ],
+  "column": 2,
+  "row": -1,
+  "icons": [
+    "thaumaturgicexploration:meteor_boots"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicexploration.meteor_boots.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:artifice",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:artifice",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicexploration.meteor_boots.stage_1",
+      "recipes": [
+        "thaumaturgicexploration:infusion/meteor_boots"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:potentia",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:motus",
+      "amount": 10
+    },
+    {
+      "aspect": "thaumaturge:volatus",
+      "amount": 5
+    }
+  ],
+  "complexity": 2
+}

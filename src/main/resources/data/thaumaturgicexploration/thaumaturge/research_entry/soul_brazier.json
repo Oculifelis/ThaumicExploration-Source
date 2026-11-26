@@ -1,0 +1,47 @@
+{
+  "category": "thaumaturgicexploration:exploration",
+  "name": "research.thaumaturgicexploration.soul_brazier.title",
+  "parents": [
+    "thaumaturge:warp",
+    "thaumaturge:infusion"
+  ],
+  "column": -6,
+  "row": -10,
+  "icons": [
+    "thaumaturgicexploration:soul_brazier"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicexploration.soul_brazier.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:auromancy",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:auromancy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicexploration.soul_brazier.stage_1",
+      "recipes": [
+        "thaumaturgicexploration:infusion/soul_brazier"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 3
+    }
+  ],
+  "complexity": 3
+}

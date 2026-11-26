@@ -1,0 +1,59 @@
+{
+  "category": "thaumaturgicexploration:exploration",
+  "name": "research.thaumaturgicexploration.brain_cure.title",
+  "parents": [
+    "thaumaturge:jar_brain",
+    "thaumaturgicexploration:flesh_cure",
+    "thaumaturge:infusion"
+  ],
+  "column": -2,
+  "row": -8,
+  "icons": [
+    "thaumaturgicexploration:pure_brain"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicexploration.brain_cure.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicexploration.brain_cure.stage_1",
+      "recipes": [
+        "thaumaturgicexploration:infusion/pure_brain"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:cognitio",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:humanus",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:exanimis",
+      "amount": 3
+    }
+  ],
+  "complexity": 1,
+  "meta": [
+    "hidden"
+  ]
+}

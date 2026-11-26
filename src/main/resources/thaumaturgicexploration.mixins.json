@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.thaumaturgicexploration.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "EverfullUrnMixin"
+  ],
+  "client": [
+    "WindowNoFocusMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

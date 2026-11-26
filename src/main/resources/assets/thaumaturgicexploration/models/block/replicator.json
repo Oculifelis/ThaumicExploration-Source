@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "side": "thaumaturgicexploration:block/replicator_side",
+    "bottom": "thaumaturgicexploration:block/replicator_bottom",
+    "top": "thaumaturgicexploration:block/replicator_top"
+  }
+}

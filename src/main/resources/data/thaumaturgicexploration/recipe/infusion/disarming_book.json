@@ -1,0 +1,35 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:victus",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:vinculum",
+      "amount": 4
+    }
+  ],
+  "catalyst": "minecraft:book",
+  "components": [
+    "minecraft:iron_sword",
+    "thaumaturge:salis_mundus",
+    "minecraft:slime_ball"
+  ],
+  "instability": 5,
+  "research": {
+    "entry": "thaumaturgicexploration:disarming"
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "thaumaturgicexploration:disarming": 1
+      }
+    }
+  }
+}

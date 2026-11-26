@@ -1,0 +1,50 @@
+{
+  "category": "thaumaturgicexploration:exploration",
+  "name": "research.thaumaturgicexploration.rod_transmutative.title",
+  "parents": [
+    "thaumaturge:rod_greatwood"
+  ],
+  "column": -1,
+  "row": -1,
+  "icons": [
+    "thaumaturgicexploration:wand_rod_transmutative"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicexploration.rod_transmutative.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:auromancy",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:auromancy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicexploration.rod_transmutative.stage_1",
+      "recipes": [
+        "thaumaturgicexploration:infusion/wand_rod_transmutative"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 12
+    }
+  ],
+  "complexity": 2
+}

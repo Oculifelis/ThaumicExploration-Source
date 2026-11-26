@@ -36,14 +36,14 @@ neoForge {
             jvmArgument '-Xmx3G'
             // Development-only automated cap/urn check: tools/run_client_test.sh (-Pautotest=1)
             if (project.hasProperty('autotest')) {
-                systemProperty 'thaumicexploration.autotest', project.property('autotest').toString()
+                systemProperty 'thaumaturgicexploration.autotest', project.property('autotest').toString()
             }
         }
         server {
             server()
             gameDirectory = project.file('run/server')
             programArgument '--nogui'
-            systemProperty 'thaumicexploration.selftest', 'true'
+            systemProperty 'thaumaturgicexploration.selftest', 'true'
         }
         configureEach {
             systemProperty 'forge.logging.markers', ''

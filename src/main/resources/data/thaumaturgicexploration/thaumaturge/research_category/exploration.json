@@ -1,0 +1,33 @@
+{
+  "background": "thaumaturgicexploration:textures/gui/research_back.png",
+  "formula": [
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 20
+    },
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 10
+    },
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 10
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:bestia",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 5
+    }
+  ],
+  "icon": "thaumaturgicexploration:textures/misc/category_icon.png",
+  "index": 14,
+  "overlay_background": "thaumaturge:textures/gui/gui_research_back_over.png",
+  "required_research": "thaumaturge:first_steps"
+}

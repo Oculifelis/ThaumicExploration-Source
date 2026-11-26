@@ -1,0 +1,9 @@
+{
+  "values": {
+    "thaumaturgicexploration:replicator": {
+      "range": 12,
+      "essentia_interval": 50,
+      "finish_ticks": 100
+    }
+  }
+}

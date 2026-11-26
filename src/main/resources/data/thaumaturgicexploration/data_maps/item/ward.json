@@ -1,0 +1,9 @@
+{
+  "values": {
+    "thaumaturgicexploration:dreamcatcher": {
+      "chance": 0.75,
+      "damage_types": "#thaumaturgicexploration:dreamcatcher_wards",
+      "attackers": "#thaumaturge:tainted"
+    }
+  }
+}

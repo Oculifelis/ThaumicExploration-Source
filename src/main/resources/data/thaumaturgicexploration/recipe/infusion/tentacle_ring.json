@@ -1,0 +1,35 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:vitium",
+      "amount": 32
+    },
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:praemunio",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:bestia",
+      "amount": 8
+    }
+  ],
+  "catalyst": "thaumaturge:ring_mundane",
+  "components": [
+    "thaumaturge:tainted_goo",
+    "thaumaturge:taint_tendril",
+    "thaumaturge:tainted_goo",
+    "thaumaturge:taint_tendril"
+  ],
+  "instability": 4,
+  "research": {
+    "entry": "thaumaturgicexploration:tentacle_ring"
+  },
+  "result": {
+    "id": "thaumaturgicexploration:tentacle_ring"
+  }
+}

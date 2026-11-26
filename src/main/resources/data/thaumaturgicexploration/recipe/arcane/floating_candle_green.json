@@ -1,0 +1,31 @@
+{
+  "type": "thaumaturge:arcane_workbench_shapeless",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 5
+    }
+  ],
+  "ingredients": [
+    "thaumaturge:candle_green",
+    "thaumaturge:candle_green",
+    "thaumaturge:candle_green",
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:aer"
+        }
+      }
+    }
+  ],
+  "research": {
+    "entry": "thaumaturgicexploration:floating_candle"
+  },
+  "result": {
+    "id": "thaumaturgicexploration:floating_candle_green",
+    "count": 3
+  },
+  "vis": 5
+}

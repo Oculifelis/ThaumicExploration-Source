@@ -1,0 +1,60 @@
+{
+  "category": "thaumaturgicexploration:exploration",
+  "name": "research.thaumaturgicexploration.rod_necromancer_staff.title",
+  "parents": [
+    "thaumaturge:rod_bone",
+    "thaumaturge:staves",
+    "thaumaturge:infusion"
+  ],
+  "column": -3,
+  "row": 1,
+  "icons": [
+    "thaumaturgicexploration:staff_rod_necromancer"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicexploration.rod_necromancer_staff.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:auromancy",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:auromancy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicexploration.rod_necromancer_staff.stage_1",
+      "recipes": [
+        "thaumaturgicexploration:infusion/staff_rod_necromancer"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:mortuus",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:spiritus",
+      "amount": 5
+    }
+  ],
+  "complexity": 3
+}
